@@ -1,0 +1,30 @@
+[project]
+name = "udpm-labs"
+version = "0.1.0"
+description = "UDPM PhD coursework: imbalanced learning, weighted loss, and GAN augmentation labs."
+requires-python = "==3.14.5"
+dependencies = [
+    "torch>=2.4",
+    "torchvision>=0.19",
+    "numpy>=2.0",
+    "pandas>=2.2",
+    "scikit-learn>=1.5",
+    "imbalanced-learn>=0.13",
+    "xgboost>=2.1",
+    "umap-learn>=0.5.7",
+    "matplotlib>=3.9",
+    "seaborn>=0.13",
+    "jupyterlab>=4.2",
+    "kagglehub>=0.3",
+    "tqdm>=4.66",
+    "Pillow>=10.4",
+]
+
+[tool.uv.sources]
+torch = [{ index = "pytorch-cu124" }]
+torchvision = [{ index = "pytorch-cu124" }]
+
+[[tool.uv.index]]
+name = "pytorch-cu124"
+url = "https://download.pytorch.org/whl/cu124"
+explicit = true

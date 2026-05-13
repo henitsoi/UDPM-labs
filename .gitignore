@@ -1,0 +1,41 @@
+# Internal planning artifacts — not part of the lab deliverable
+docs/superpowers/
+
+# Reference materials
+UDPM-Labs.docx.pdf
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+.python-version
+
+# uv
+.uv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Datasets and cached embeddings (per spec §4.1)
+data/
+lab*/embeddings/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
