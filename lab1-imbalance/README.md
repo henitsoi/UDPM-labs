@@ -33,4 +33,4 @@ Single seed 42 (torch, numpy, sklearn). All non-determinism documented in the no
 
 ## Notes / fallbacks
 
-If `torch` wheels for Python 3.14 are unavailable on install day, relax `requires-python` in the repo root `pyproject.toml` to `>=3.13,<3.15` and re-run `uv sync`. Note the change here.
+**Python 3.14 → 3.13 fallback applied (2026-05-13).** PyTorch's `cu124` index ships only `cp39`–`cp313` wheels at the time of setup, so the project pins `requires-python = ">=3.13,<3.14"`. Revisit if PyTorch publishes `cp314` wheels.

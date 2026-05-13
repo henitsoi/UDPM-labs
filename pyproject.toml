@@ -2,7 +2,7 @@
 name = "udpm-labs"
 version = "0.1.0"
 description = "UDPM PhD coursework: imbalanced learning, weighted loss, and GAN augmentation labs."
-requires-python = "==3.14.5"
+requires-python = ">=3.13,<3.14"
 dependencies = [
     "torch>=2.4",
     "torchvision>=0.19",
