@@ -3,7 +3,7 @@
 PhD coursework — three labs exploring class imbalance on the Kaggle `kmader/skin-cancer-mnist-ham10000` dataset (raw HAM10000 with lesion-aware splits):
 
 - **`lab1-imbalance/`** — Undersampling, oversampling, and cost-sensitive learning on DINOv2 embeddings.
-- **`lab2-weighted-loss/`** — Weighted cross-entropy and Focal Loss on the same embeddings (in progress).
+- **`lab2-weighted-loss/`** — Weighted cross-entropy, Focal Loss, and Class-Balanced Focal Loss on the same embeddings.
 - **`lab3-gan-augmentation/`** — Conditional GAN for minority-class synthesis (in progress).
 
 ## Stack
