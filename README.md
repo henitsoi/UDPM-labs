@@ -4,7 +4,7 @@ PhD coursework — three labs exploring class imbalance on the Kaggle `kmader/sk
 
 - **`lab1-imbalance/`** — Undersampling, oversampling, and cost-sensitive learning on DINOv2 embeddings.
 - **`lab2-weighted-loss/`** — Weighted cross-entropy, Focal Loss, and Class-Balanced Focal Loss on the same embeddings.
-- **`lab3-gan-augmentation/`** — Conditional GAN for minority-class synthesis (in progress).
+- **`lab3-gan-augmentation/`** — Conditional DCGAN for minority-class synthesis on DermaMNIST 28×28, with best-by-DINOv2-margin checkpoint selection.
 
 ## Stack
 
